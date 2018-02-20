@@ -128,14 +128,14 @@ s, i, em {
     line-height: 30px;
     background-color: #f1f1f1;
 }
-.site-nav-sent {
+.site-nav-sent , .site-nav-r .fore {
     position: relative;
     padding: 0 25px 0 10px;
 }
 .site-nav-sent:hover {
     background-color: #fff;
 }
-.site-nav-sent i {
+.site-nav-sent i , .fore i{
     position: absolute;
     top: 12px;
     right: 8px;
@@ -144,9 +144,51 @@ s, i, em {
     overflow: hidden;
     /*background-color: red;*/
 }
-.site-nav-sent s {
+.site-nav-sent s , .fore s{
     position: absolute;
     top: -7px;
     font: 400 13px/15px "consolas";
 }
+.site-nav-r li{
+    float: left;
+    padding: 0 10px;
+}
+.site-nav-r .line {
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+    background-color: #ddd;
+}
+.site-nav-r .jd-tel {
+    padding-left: 25px;
+}
+.jd-tel span {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 5px;
+    left: 9px;
+    background: url("../images/tel.png") no-repeat;
+}
 /*site-nav部分end*/
+
+/*top-banner start*/
+.top-banner {
+    background-color: rgb(55,194,251);
+}
+.tb {
+    position: relative;
+}
+.close-banner {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    width: 19px;
+    height: 19px;
+    background: url("../images/close-banner.png") no-repeat;
+}
+.close-banner:hover {
+    background-position: bottom;
+}
+/*top-banner end*/
